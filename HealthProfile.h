@@ -15,7 +15,7 @@ private:
 
 public:
   // constructor
-  HealthProfile(string, string, string, int, int);
+  HealthProfile(string, string, string, int, string, int, int, int);
 
   // methods for firstName
   void setFirstName(string);
