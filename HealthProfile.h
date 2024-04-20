@@ -72,14 +72,3 @@ public:
   void displayTargetHeartRate();
   int getTargetHeartRate();
 };
-
-// first name
-// last name
-// gender
-// date of birth
-// height
-// weight
-// BMI
-// heart rate
-// target heart rate range
-//
