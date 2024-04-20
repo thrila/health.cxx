@@ -6,6 +6,10 @@ private:
   string firstName;
   string lastName;
   string gender;
+  int day;
+  string month;
+  int year;
+  string date;
   int height;
   int weight;
 
@@ -35,7 +39,7 @@ public:
 
   // methods for month
   void setMonth(string);
-  int getMonth();
+  string getMonth();
   void displayMonth();
 
   // methods for year
@@ -60,10 +64,13 @@ public:
 
   // methods for BMI
   void displayBMI();
+  int getBMI();
 
   // methods for heart rate
   void displayHeartRate();
+  int getHeartRate();
   void displayTargetHeartRate();
+  int getTargetHeartRate();
 };
 
 // first name
